@@ -5,7 +5,9 @@ public class Initials {
     {
         //ask user for the first name and store it in a String
         System.out.printf("Enter your first name: ");
+
         Scanner keyboard = new Scanner(System.in);
+
         String firstName = keyboard.nextLine();
 
         System.out.printf("Enter your last name: ");
